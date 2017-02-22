@@ -1,0 +1,15 @@
+section {
+	outline: 1px solid black;
+	display: flex;
+}
+
+
+.box {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+
+section > div.box {
+	margin: 0 auto 0 32.5%;
+}
